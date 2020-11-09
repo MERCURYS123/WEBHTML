@@ -1,0 +1,384 @@
+<textarea name="textarea"
+   rows="5" cols="30"
+   left="50" right="50"
+   disabled>Benvenuti Nel Mio Sito,Consiglio di leggere i cookie </textarea>
+   <a href="mailto:mattiamoschella2@gmail.com">
+Invia una email x info
+</a>
+
+  <a href="cookie.html">
+    // Cookie
+</a>
+
+
+   <!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: white;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: red;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+
+
+<button onclick="myFunction()">red mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+</body>
+</html>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<style type="text/css">
+#loading_screen
+{ 
+  display: none;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white; 
+  text-align: center;
+  padding-top: 300px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  z-index: 9999;
+}
+img.loading{
+margin-top: 20px;
+}
+</style>
+<script type="text/javascript">
+(function(){  
+  if (window.addEventListener)
+  {
+    window.addEventListener("load", nascondi_loading_screen, false);   
+  }else{
+    window.attachEvent("onload", nascondi_loading_screen);
+  }
+})();
+function mostra_loading_screen()
+{
+  document.getElementById("loading_screen").style.display = 'block';
+}
+function nascondi_loading_screen()
+{
+  document.getElementById("loading_screen").style.display = 'none';
+}
+</script>
+<div id="loading_screen">
+  <h1>Caricamento...</h1> <br /><br />
+  <img  class= "loading" src="/images/loading.gif" />
+</div>
+<script type="text/javascript">
+mostra_loading_screen();
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/now-ui-kit.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+    <title>Web2020</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-transparent">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="assets/1424449337.png" width="20px" height="20px" style="max-width: none !important;">
+    </button>
+    <img src="web.jpg" width="50" height="50">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important">
+        <ul class="navbar-nav mr-auto">
+       <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Home
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="home.html">Home</a>
+                <a class="dropdown-item" href="sito1.html">Gioco</a>
+                <div class="dropdown-divider"></div>
+               
+            </div>
+        </div>
+              <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Aiuti
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="modulo.html">Contatti</a>
+                <a class="dropdown-item" href="calcolatrice.html">Calcolatrice</a>
+                <div class="dropdown-divider"></div>
+               
+            </div>
+        </div>
+            <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Informazioni
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="meteo.html">Meteo</a>
+                <a class="dropdown-item" href="infromazioni.html">Informazioni</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="aggiornamenti.html">Aggiornamenti</a>
+                <div class="dropdown-divider"></div>
+               
+            </div>
+        </div>
+           <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Bottoni
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="bottoni.html">Bottoni</a>
+                
+               
+            </div>
+        </div>
+        <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Codici
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="codicijs.html">Codici JS</a>
+                <a class="dropdown-item" href="codicihtml.html">Codici HTML</a>
+                <div class="dropdown-divider"></div>
+               
+            </div>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link" href="altro.html">Altro</a>
+        </div>
+        <button class="btn login-btn btn-outline-accent my-2 my-sm-0" style="font-size: 10px !important;font-family: poppins !important;"><a class="nav-link" href="login.html">LOGIN</a></button>
+    </div>
+</nav>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/now-ui-kit.min.js"></script>
+</body>
+</html>
+
+<link rel="stylesheet" href="stili/2.css">
+
+
+<body background=”https://servizinazionali.infn.it/wp-content/uploads/2019/11/www-icon-png-28.png”>
+<head>
+    
+  <div id="loading_screen">
+  <h1>Loading...</h1> 
+  <p>La pagina è in caricamento<br/>
+  Resta connesso e non cambiare sito!</p>
+</div>
+  <link rel="stylesheet" href="stili/logo.css">
+  <body>
+    
+  <script>
+
+   
+(function(){   
+  if (window.addEventListener)
+  {
+    window.addEventListener("load", nascondi_loading_screen, false);    
+  }else{
+    window.attachEvent("onload", nascondi_loading_screen);
+  }
+})();
+function nascondi_loading_screen()
+{
+  document.getElementById("loading_screen").style.display = 'none';
+}
+</script>
+</head>
+<META HTTP-EQUIV=REFRESH content="60; url=https://Web2020.mattiamoschella.repl.co/index.html">
+
+
+   
+
+
+
+
+
+<link rel="stylesheet" href="stili/stile.css">
+
+
+<!-- Codice per accettazione cookie - Inizio -->
+<script type='text/javascript'>
+//<![CDATA[
+(function(window) {
+  if (!!window.cookieChoices) {
+    return window.cookieChoices;
+  }
+  var document = window.document;  
+  var supportsTextContent = 'textContent' in document.body;
+  var cookieChoices = (function() {
+    var cookieName = 'displayCookieConsent';
+    var cookieConsentId = 'cookieChoiceInfo';
+    var dismissLinkId = 'cookieChoiceDismiss';
+    function _createHeaderElement(cookieText, dismissText, linkText, linkHref) {
+      var butterBarStyles = 'position:fixed;width:100%;background-color:#eee;' +
+          'margin:0; left:0; top:0;padding:4px;z-index:1000;text-align:center;';
+      var cookieConsentElement = document.createElement('div');
+      cookieConsentElement.id = cookieConsentId;
+      cookieConsentElement.style.cssText = butterBarStyles;
+      cookieConsentElement.appendChild(_createConsentText(cookieText));
+      if (!!linkText && !!linkHref) {
+        cookieConsentElement.appendChild(_createInformationLink(linkText, linkHref));
+      }
+      cookieConsentElement.appendChild(_createDismissLink(dismissText));
+      return cookieConsentElement;
+    }
+    function _createDialogElement(cookieText, dismissText, linkText, linkHref) {
+      var glassStyle = 'position:fixed;width:100%;height:100%;z-index:999;' +
+          'top:0;left:0;opacity:0.5;filter:alpha(opacity=50);' +
+          'background-color:#ccc;';
+      var dialogStyle = 'z-index:1000;position:fixed;left:50%;top:50%';
+      var contentStyle = 'position:relative;left:50%;margin-top:-25%;' +
+          'background-color:#fff;padding:20px;box-shadow:4px 4px 25px #888;';
+      var cookieConsentElement = document.createElement('div');
+      cookieConsentElement.id = cookieConsentId;
+      var glassPanel = document.createElement('div');
+      glassPanel.style.cssText = glassStyle;
+      var content = document.createElement('div');
+      content.style.cssText = contentStyle;
+      var dialog = document.createElement('div');
+      dialog.style.cssText = dialogStyle;
+      var dismissLink = _createDismissLink(dismissText);
+      dismissLink.style.display = 'block';
+      dismissLink.style.textAlign = 'left';
+      dismissLink.style.marginTop = '8px';
+      content.appendChild(_createConsentText(cookieText));
+      if (!!linkText && !!linkHref) {
+        content.appendChild(_createInformationLink(linkText, linkHref));
+      }
+      content.appendChild(dismissLink);
+      dialog.appendChild(content);
+      cookieConsentElement.appendChild(glassPanel);
+      cookieConsentElement.appendChild(dialog);
+      return cookieConsentElement;
+    }
+    function _setElementText(element, text) {
+      if (supportsTextContent) {
+        element.textContent = text;
+      } else {
+        element.innerText = text;
+      }
+    }
+    function _createConsentText(cookieText) {
+      var consentText = document.createElement('span');
+      _setElementText(consentText, cookieText);
+      return consentText;
+    }
+    function _createDismissLink(dismissText) {
+      var dismissLink = document.createElement('a');
+      _setElementText(dismissLink, dismissText);
+      dismissLink.id = dismissLinkId;
+      dismissLink.href = '#';
+      dismissLink.style.marginLeft = '24px';
+      return dismissLink;
+    }
+    function _createInformationLink(linkText, linkHref) {
+      var infoLink = document.createElement('a');
+      _setElementText(infoLink, linkText);
+      infoLink.href = linkHref;
+      infoLink.target = '_blank';
+      infoLink.style.marginLeft = '8px';
+      return infoLink;
+    }
+    function _dismissLinkClick() {
+      _saveUserPreference();
+      _removeCookieConsent();
+      return false;
+    }
+    function _showCookieConsent(cookieText, dismissText, linkText, linkHref, isDialog) {
+      if (_shouldDisplayConsent()) {
+        _removeCookieConsent();
+        var consentElement = (isDialog) ?
+            _createDialogElement(cookieText, dismissText, linkText, linkHref) :
+            _createHeaderElement(cookieText, dismissText, linkText, linkHref);
+        var fragment = document.createDocumentFragment();
+        fragment.appendChild(consentElement);
+        document.body.appendChild(fragment.cloneNode(true));
+        document.getElementById(dismissLinkId).onclick = _dismissLinkClick;
+      }
+    }
+    function showCookieConsentBar(cookieText, dismissText, linkText, linkHref) {
+      _showCookieConsent(cookieText, dismissText, linkText, linkHref, false);
+    }
+    function showCookieConsentDialog(cookieText, dismissText, linkText, linkHref) {
+      _showCookieConsent(cookieText, dismissText, linkText, linkHref, true);
+    }
+    function _removeCookieConsent() {
+      var cookieChoiceElement = document.getElementById(cookieConsentId);
+      if (cookieChoiceElement != null) {
+        cookieChoiceElement.parentNode.removeChild(cookieChoiceElement);
+      }
+    }
+    function _saveUserPreference() {
+      // Durata del cookie di un anno
+      var expiryDate = new Date();
+      expiryDate.setFullYear(expiryDate.getFullYear() + 1);
+      document.cookie = cookieName + '=y; expires=' + expiryDate.toGMTString();
+    }
+    function _shouldDisplayConsent() {
+      // Per mostrare il banner solo in mancanza del cookie
+      return !document.cookie.match(new RegExp(cookieName + '=([^;]+)'));
+    }
+    var exports = {};
+    exports.showCookieConsentBar = showCookieConsentBar;
+    exports.showCookieConsentDialog = showCookieConsentDialog;
+    return exports;
+  })();
+  window.cookieChoices = cookieChoices;
+  return cookieChoices;
+})(this);
+document.addEventListener('DOMContentLoaded', function(event) {
+    cookieChoices.showCookieConsentBar('Questo sito utilizza i cookie per migliorare servizi ed esperienza dei lettori. Se decidi di continuare la navigazione consideriamo che accetti il loro uso.',
+        'OK', 'Più Info', 'cookie.html');
+  });
+//]]> 
+</script>
+<!-- Codice per accettazione cookie - Fine -->
+
+
+<!DOCTYPE html>
+
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebOnline2020</title>
+    <DIV STYLE=”position:absolute; width: 500%; left:100px”>
+
+</DIV>
+
+
+
+    
